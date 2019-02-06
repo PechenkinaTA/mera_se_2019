@@ -22,21 +22,21 @@ public class Players {
 		WENTHOME
 	}
 	
-	private String Names;
-	private String PlayerState;
+	private String names;
+	private String playerState;
 	/**
 	 * @param names
 	 * @param playerState
 	 */
-	public Players(String names, String playerState) {
-		Names = names;
-		PlayerState = playerState;
+	public Players(String name, String playerStates) {
+		names = name;
+		playerState = playerStates;
 	}
 	public String getNames() {
-		return Names;
+		return names;
 	}
 	public String getPlayerState() {
-		return PlayerState;
+		return playerState;
 	}
 	
 	@Override
@@ -45,5 +45,5 @@ public class Players {
     }
 
 }
-
+	
 
