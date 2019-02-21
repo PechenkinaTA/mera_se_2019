@@ -5,7 +5,6 @@ public interface Fruits extends Plants {
 	
 	@Override
 	String toString();
-
-	Integer getCount();
+	public Integer getQuantity();
 
 }

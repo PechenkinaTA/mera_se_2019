@@ -3,21 +3,24 @@ package ru.mera.pechenkina.task8;
 
 public class Baklazhan implements Vegetables {
 
-	public String name = "Baklazhan"; 
-	public Integer count;
-	
+	final public String name = "Baklazhan"; 
+	public Integer quantity;
 	
 	/**
 	 * @param name
 	 */
-	public Baklazhan(String name, Integer count) {
-		super();
-		this.name = "Baklazhan";
-		this.count = count;
+
+	public Baklazhan() {
+		// TODO Auto-generated constructor stub
 	}
 
-	public Integer getCount() {
-		return count;
+	public Baklazhan(Integer quantity) {
+		// TODO Auto-generated constructor stub
+		this.quantity = quantity;
+	}
+
+	public Integer getQuantity() {
+		return quantity;
 	}
 
 	@Override

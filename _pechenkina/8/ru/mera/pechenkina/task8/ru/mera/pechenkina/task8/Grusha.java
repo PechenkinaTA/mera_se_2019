@@ -2,17 +2,24 @@ package ru.mera.pechenkina.task8;
 
 public class Grusha implements Fruits{
 
-	public String name = "Grusha";
-	public Integer count;
+	final public String name = "Grusha";
+	public Integer quantity;
 	
 	
 	/**
 	 * @param name
 	 */
-	public Grusha(String name,Integer count) {
-		super();
-		this.name = "Grusha";
-		this.count = count;
+
+	public Grusha() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Grusha(Integer quantity) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Integer getQuantity() {
+		return quantity;
 	}
 
 	@Override
@@ -21,9 +28,6 @@ public class Grusha implements Fruits{
 		return name;
 	}
 
-	public Integer getCount() {
-		return count;
-	}
 
 	@Override
 	public String toString(){
