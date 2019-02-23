@@ -66,6 +66,13 @@ public class Freight {
 		shop.printCargoInShop(fruiteCar);
 		shop.printCargoInShop(vegetableCar);
 		
+		List<String> stringShopCheck = new ArrayList<>(1);
+		stringShopCheck.add("Kurkuma");
+		
+		shop.printCargoInShop(stringShopCheck);
+		
+		
+		
 	}
 
 }
